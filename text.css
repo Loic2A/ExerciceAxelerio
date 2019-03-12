@@ -1,0 +1,23 @@
+body{
+    font-family:Oswald;
+    background: rgb(235, 235, 235)
+}
+#map-container{
+    border-style: solid;
+    border-width: 1px;
+    height: 450px;
+    width: 90%;
+}
+#banner{
+    height: 80px;
+    width: 100%;
+    background: white;
+    color: orange;
+    text-align: center;
+}
+@media screen and (max-width: 700px) {
+    #banner{
+        position: absolute;
+        top: 0px;
+    }
+}
